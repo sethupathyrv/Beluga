@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Damion&display=swap");
+
+canvas {
+  background: linear-gradient(to top, #666699 0%, #ffcccc 100%);
+}
+
+a {
+  color: black !important;
+}
+
+.brand-logo,
+h2 {
+  font-family: "Damion", cursive;
+}
+
+.mycard {
+  margin-top: 30 px;
+}
+
+.particles {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  background: linear-gradient(to top, #666699 0%, #ffcccc 100%);
+  opacity: 1;
+}
+
+.auth-card {
+  padding: 20px;
+  text-align: center;
+  max-width: 400px;
+  margin: 10px auto;
+  top: 100px;
+  border-radius: 1%;
+  box-shadow: 5;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.item {
+  width: 30%;
+}
+
+.home-card {
+  max-width: 60vw;
+  height: max-content;
+  margin: 26px auto;
+  border-radius: 1%;
+  box-shadow: 10;
+}
+
+#toast-container {
+  top: 30px !important;
+  right: 20px !important;
+  left: auto !important;
+}
+
+.brand-logo {
+  margin-left: 30px;
+}
+
+.navAdjust {
+  margin-right: 30px;
+}
+
+.material-icons:hover {
+  cursor: pointer;
+}
+
+#material-icons-react-up,
+#material-icons-react-down:hover {
+  cursor: pointer;
+}
+
+#material-icons-react-up {
+  width: 20px;
+}
